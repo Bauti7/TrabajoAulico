@@ -65,7 +65,7 @@ public class Empleado {
 
     @Override
     public String toString() {
-        return " Empleado: " + "Nombre " + nombre + ", Apellido " + apellido;
+        return " Empleado: " + "Nombre " + nombre + ", Apellido " + apellido + ", Puesto: " + categoria;
     }
 
     public void setEmpresa(Empresa empresa) {

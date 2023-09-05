@@ -389,7 +389,7 @@ public class Main extends javax.swing.JFrame {
         Empresa empresita = (Empresa)jcEmpresas.getSelectedItem();
         
         JOptionPane.showMessageDialog(this, "Empleados de " + empresita.getRazonsocial() + 
-                ":\n" + empresita.mostrarEmpleados() + " Puesto: " + jcCategoria.getSelectedItem());
+                ":\n" + empresita.mostrarEmpleados());
         
     }//GEN-LAST:event_jbMostrarActionPerformed
 
